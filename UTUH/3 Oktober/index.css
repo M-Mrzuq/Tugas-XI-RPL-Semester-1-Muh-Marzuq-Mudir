@@ -1,0 +1,11 @@
+#hasil-output {
+    width: 210px;
+    height: 265px;
+    padding: 0px 15px 10px 15px;
+    border: 2px solid black;
+}
+
+h2 {
+    text-align: center;
+    font-weight: bold;
+}

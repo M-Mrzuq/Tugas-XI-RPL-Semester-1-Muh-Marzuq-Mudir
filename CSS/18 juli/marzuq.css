@@ -1,0 +1,13 @@
+h1, p {
+    color: rgb(rgb(67, 74, 255));
+    font-family: 'Times New Roman';
+}
+
+b {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(0, 34, 255);
+}
+
+.ceh {
+    color: aqua;
+}

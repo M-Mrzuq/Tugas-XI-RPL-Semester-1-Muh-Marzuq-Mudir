@@ -1,0 +1,246 @@
+.latar {
+    background-color: #303135;
+    margin: auto;
+}
+
+.navbar {
+    font-family: sans-serif;
+    color: white;
+    background-size: cover;
+    background-image: url(papers.co-bj18-art-room-anime-monsters-space-night-29-wallpaper.jpg);
+    height: 130px;
+    width: auto;
+    padding-top: 20px;
+    padding-left: 25px;
+}
+#halo, #tujuan {
+    line-height: 30px;
+}
+#halo {
+    font-size: 17pt;
+}
+#tujuan {
+    font-size: 9pt;
+}
+
+.info-all {
+    position: relative;
+    width: 92%;
+    margin: 16px 21px;
+    margin-left: 35px;
+}
+
+.info {
+    align-items: center;
+    padding-top: 28px;
+    padding-left: 17px;
+    padding-right: 20px;
+    padding-bottom: 28px;
+    background-color: #252626;
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    border: solid 1px #2f3035;
+}
+
+#profile {
+    border: rgb(97, 97, 97) solid 1px;
+    width: 45px;
+    height: 45px;
+    border-radius: 100%;
+    margin-right: 10px;
+    transition: 1s;
+}
+#profile:hover {
+    box-shadow: 0px 0px 15px #3b56e5;
+    transition: 1s;
+    scale: 1.2;
+    cursor: pointer;
+    
+}
+
+.ug {
+    border: none;
+    text-align: center;
+    height: 17px;
+    width: 17px;
+    background-color: #3b56e5;
+    color: white;
+    font-size: 5.8pt;
+    border-radius: 25px;
+    position: absolute;
+    top: 55px;
+    left: 47px;
+    cursor: pointer;
+    transition: 1s;
+}
+.ug:hover{
+    transition: 1s;
+    scale: 1.5;
+    box-shadow: 0px 0px 25px #3b56e5;
+}
+
+#namainfo {
+    align-self: flex-start;
+    font-size: 14pt;
+    line-height: 19px;
+}
+
+.lastuse {
+    font-size: 8pt;
+}
+
+.dropdown {
+    margin-left: auto;
+    margin-right: 40px;
+}
+
+.pass {
+    transition: 1s;
+    margin-right: 25px;
+    background-color: #3b56e5;
+    border-color: transparent;
+    color: white;
+    padding: 5px 15px 5px 15px;
+    border-radius: 5px;
+}
+
+.info2{
+    border: solid 1px #2f3035;
+    align-items: center;
+    padding-top: 28px;
+    padding-left: 17px;
+    padding-right: 20px;
+    padding-bottom: 28px;
+    background-color: #252626;
+    width: 100%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.personal-information {
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.social-information {
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-information, .personal-information{
+    font-size: 11pt;
+}
+.edit:hover, .pass:hover{
+    cursor: pointer;
+    scale: 1.1;
+    transition: 1s;
+    box-shadow: 0px 0px 10px#3b56e5;
+}
+.edit {
+    transition: 1s;
+    color: white;
+    border-color: transparent;
+    padding: 5px 20px 5px 12px;
+    border-radius: 5px;
+    background-color: #3b56e5;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+}
+td {
+    border: solid 2px #2f3035;
+    padding: 13px;
+    padding-left: 18px;
+    width: 33.33%;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+td:hover{
+    background-color: #2f3035;
+    transition: 0.5s;
+    box-shadow: 0px 0px 5px #3b56e5;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.tabel {
+    border-collapse: collapse;
+    color: white;
+    margin-top: 15px;
+    width: 100%;
+}
+
+.atas {
+    margin-left: 25px;
+    font-size: 8pt;
+    color: rgb(219, 219, 219);
+    line-height: 16.5px;
+    margin-right: auto;
+}
+.na {
+    font-size: 9pt;
+}
+
+#icon {
+    position: relative;
+    top: 3px;
+    float: inline-start;
+    align-self: center;
+}
+
+.select {
+    background-color: #252626;
+    color: white;
+    text-align: center;
+    height: 30px;
+    width: 120px;
+    border: solid 2px #2e3030;
+    border-radius: 5px;
+    outline: none;
+    transition: 0.5s;
+}
+
+.select:hover{
+    box-shadow:0px 0px 10px #3b56e5;
+    scale: 1.1;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+.kunci {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+    -moz-transform: rotate(-135deg);
+    -ms-transform: rotate(-135deg);
+    -o-transform: rotate(-135deg);
+}
+
+#aplikasi {
+    width: 28px;
+    float: left;
+    margin-right: 10px;
+    border-radius: 50px;
+}
+
+.italic {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+option{
+   border-color: transparent;
+}

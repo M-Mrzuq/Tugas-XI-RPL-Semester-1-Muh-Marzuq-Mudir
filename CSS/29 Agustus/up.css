@@ -1,0 +1,156 @@
+body {
+    background-image:url(wp9355922.jpeg);
+    background-size: cover;
+    display: grid;
+}
+
+
+#latar {
+    scale: 1.2;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, 0.030);
+    color: rgb(255, 255, 255);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    place-self: center;
+    padding:20px;
+    padding-top: 5px;
+    padding-bottom: 40px;
+    width: 190px;
+    height: 235px;
+    text-align: center;
+    border-radius: 10px;
+    /* filter: drop-shadow(-1px -1px 10px rgba(226, 177, 43, 0.5)); */
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    /* -webkit-filter: drop-shadow(-1px -1px 10px rgba(226, 177, 43, 0.5)); */
+}
+
+#pass, #password {
+    border-radius: 5px;
+    color: white;
+    font-size: 8pt;
+    border-color: transparent;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    margin-top: 10px;
+    width: 190px;
+    height: 30px;
+    background-color: transparent;
+    outline: none;
+    background-color: transparent;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+#pass.ivalid, #password.invalid {
+    border-bottom: red;
+}
+#submit {
+    color: black;
+    margin-top: 5%;
+    font-size: 8pt;
+    border-radius: 5px;
+    font-weight: 500;
+    text-align: center;
+    height: 30px;
+    width: 190px;
+    background-color: white;
+    border: none;
+    transition: 0.08s;
+    outline: none;
+    cursor: pointer;
+    font-weight: bolder;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    -webkit-transition: 0.08s;
+    -moz-transition: 0.08s;
+    -ms-transition: 0.08s;
+    -o-transition: 0.08s;
+}
+
+.p, a{
+    font-size: 8pt;
+    color: white;
+    font-weight: lighter;
+    text-decoration: none;
+}
+a {
+    font-weight: bold;
+}
+
+#popup {
+    display: none;
+    border-radius: 10px;
+    background-color: #2f3035;
+    position: absolute;
+    width: 300px;
+    place-self: center;
+    padding: 5px 10px 25px 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+#close {
+    font-size: 14pt;
+    position: absolute;
+    right: 0px;
+    border: none;
+    background-color: transparent;
+    color: rgb(92, 92, 92);
+    cursor: pointer;
+}
+#yakin {
+    font-size: 16pt;
+    font-weight: bolder;
+    margin-bottom: 1px;
+    color: white;
+}
+#penjelasan {
+    padding: 6px 10px;
+    text-align: center;
+}
+#kamuyakin {
+    color: rgb(155, 155, 155);
+    font-size: 10pt;
+    margin-top: 6.5px;
+}
+
+#input {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 18px;
+    margin-right: 18px;
+}
+#cancel, #sign-in {
+    border: none;
+    border-radius: 6px;
+    width: 120px;
+    height: 32px;
+    font-size: 8pt;
+    cursor: pointer;
+    font-weight: bolder;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+#cancel {
+    background-color: rgb(65, 65, 65);
+    color: white;
+}
+#sign-in {
+    background-color: white;
+    color: #2f3035;
+    transition: 0.08s;
+    -webkit-transition: 0.08s;
+    -moz-transition: 0.08s;
+    -ms-transition: 0.08s;
+    -o-transition: 0.08s;
+}
